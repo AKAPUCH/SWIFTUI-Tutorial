@@ -8,5 +8,5 @@
 |섹션|설명|요약|
 |-----|-----|----|
 |checking your tools|단축키 및 기본기|[section1](./01-checking-your-tools/README.md)
-|Planning a Paged App|Text,TabView|
+|Planning a Paged App|페이지 구현하기|[section2](./02-planning-a-paged-app/README.md)
 |Prototyping the Main View|테스트2|
