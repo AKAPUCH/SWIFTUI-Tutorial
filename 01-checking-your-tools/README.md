@@ -15,6 +15,9 @@ xcode 설정 및 [단축키](./assets/XcodeCheatsheet.pdf)를 경험하며 친�
 디버그 영역(아래) 숨기기 : 쉬프트 커맨드 + Y
 캔버스(프리뷰 영역) 숨기기 : 옵션 커맨드 엔터
 
+뷰 속성 추가 : 컨트롤 + 옵션 + 클릭
+상호작용 표시하기(Embed in Stack같은..) : 커맨드 + 클릭
+
 ### SWIFTUI
 
 모든 SWIFTUI 구조체는 View 프로토콜을 반환하는 계산 속성이 존재
@@ -22,6 +25,8 @@ xcode 설정 및 [단축키](./assets/XcodeCheatsheet.pdf)를 경험하며 친�
 원하는 뷰를 선택하고 Attributes Inspector에서 또는 컨트롤+옵션+클릭을 통해 속성들을 검색하고 추가하기 가능
 
 프리뷰의 선택가능 모드에서 원하는 View를 더블 클릭시 해당하는 코드 영역도 선택됨.
+
+속성을 추가할 때마다 줄바꿈할 것(1속성 1줄)
 
 appdelegate, scenedelegate는 더이상 없고 @main 어노테이션이 되어 있는 구조체가 최초 진입점이 됨.
 ```swift
