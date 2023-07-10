@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA645AC2A5C1C7C001A67FD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA645AB2A5C1C7C001A67FD /* HistoryView.swift */; };
+		6EA645AF2A5C1FE8001A67FD /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA645AE2A5C1FE8001A67FD /* HistoryStore.swift */; };
+		6EA645B12A5C2205001A67FD /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA645B02A5C2205001A67FD /* HistoryStoreDevData.swift */; };
+		6EA645B32A5C2C50001A67FD /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA645B22A5C2C50001A67FD /* SuccessView.swift */; };
 		CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C923251474DC0049DB93 /* HIITFitApp.swift */; };
 		CD30C926251474DC0049DB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C925251474DC0049DB93 /* ContentView.swift */; };
 		CD30C928251474DD0049DB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD30C927251474DD0049DB93 /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EA645AB2A5C1C7C001A67FD /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6EA645AE2A5C1FE8001A67FD /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		6EA645B02A5C2205001A67FD /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		6EA645B22A5C2C50001A67FD /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		CD30C920251474DC0049DB93 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30C923251474DC0049DB93 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		CD30C925251474DC0049DB93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +49,7 @@
 		CD30C95025147E420049DB93 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CD30C95325147E4B0049DB93 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		CDBD949C28D97F09000FE7AA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		CDBD94A028DA9BCD000FE7AA /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = Views/Exercise.swift; sourceTree = "<group>"; };
+		CDBD94A028DA9BCD000FE7AA /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		CDBD94A228DAB99F000FE7AA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		CDBD94A428DAEF86000FE7AA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EA645AD2A5C1FAA001A67FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDBD94A028DA9BCD000FE7AA /* Exercise.swift */,
+				6EA645AE2A5C1FE8001A67FD /* HistoryStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CD30C917251474DC0049DB93 = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +93,9 @@
 		CD30C922251474DC0049DB93 /* HIITFit */ = {
 			isa = PBXGroup;
 			children = (
-				CDBD94A028DA9BCD000FE7AA /* Exercise.swift */,
 				CD30C923251474DC0049DB93 /* HIITFitApp.swift */,
 				CD30C95625147EFA0049DB93 /* Views */,
+				6EA645AD2A5C1FAA001A67FD /* Models */,
 				CD30C93D25147A8C0049DB93 /* DateExtension.swift */,
 				CD30C93E25147A8C0049DB93 /* ImageExtension.swift */,
 				CD30C927251474DD0049DB93 /* Assets.xcassets */,
@@ -93,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				CD30C92A251474DD0049DB93 /* Preview Assets.xcassets */,
+				6EA645B02A5C2205001A67FD /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -111,12 +129,14 @@
 		CD30C95625147EFA0049DB93 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6EA645AB2A5C1C7C001A67FD /* HistoryView.swift */,
 				CD30C925251474DC0049DB93 /* ContentView.swift */,
 				CD30C95025147E420049DB93 /* WelcomeView.swift */,
 				CD30C95325147E4B0049DB93 /* ExerciseView.swift */,
 				CDBD94A428DAEF86000FE7AA /* VideoPlayerView.swift */,
 				CDBD94A228DAB99F000FE7AA /* RatingView.swift */,
 				CDBD949C28D97F09000FE7AA /* HeaderView.swift */,
+				6EA645B22A5C2C50001A67FD /* SuccessView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -222,7 +242,11 @@
 				CDBD94A128DA9BCD000FE7AA /* Exercise.swift in Sources */,
 				CD30C95125147E420049DB93 /* WelcomeView.swift in Sources */,
 				CDBD94A328DAB99F000FE7AA /* RatingView.swift in Sources */,
+				6EA645AF2A5C1FE8001A67FD /* HistoryStore.swift in Sources */,
 				CD30C926251474DC0049DB93 /* ContentView.swift in Sources */,
+				6EA645B32A5C2C50001A67FD /* SuccessView.swift in Sources */,
+				6EA645AC2A5C1C7C001A67FD /* HistoryView.swift in Sources */,
+				6EA645B12A5C2205001A67FD /* HistoryStoreDevData.swift in Sources */,
 				CD30C93F25147A8C0049DB93 /* DateExtension.swift in Sources */,
 				CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */,
 				CD30C94025147A8C0049DB93 /* ImageExtension.swift in Sources */,
@@ -406,7 +430,7 @@
 				CD30C92E251474DD0049DB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CD30C92F251474DD0049DB93 /* Build configuration list for PBXNativeTarget "HIITFit" */ = {
 			isa = XCConfigurationList;
@@ -415,7 +439,7 @@
 				CD30C931251474DD0049DB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
